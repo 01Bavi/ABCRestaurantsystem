@@ -1,0 +1,26 @@
+:root {
+  --primary: #FF6D60;
+  --second: #F7D060;
+  --second-light: #F3E99F;
+  --fourth-color: #98d8aa;
+  --second-light1: #f6efbc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.faci{
+    background-color:var(--primary) ;
+    margin-bottom: 10px;
+  }
+  
+  .facility-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
